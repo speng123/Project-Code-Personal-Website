@@ -1,0 +1,698 @@
+
+@import url('https://fonts.googleapis.com/css?family=Suez+One|Roboto');
+
+
+/* * === CSS FOR INDEX PAGE === */
+
+.header {
+    display: block;
+    width: 70%;
+    border: 5px #FAFF70;
+    margin: auto;
+    text-align: center;
+    background-color: #000000;
+    }
+
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.powerup {
+    font-size: 70px;
+    background-color: #000000;
+    color: #FAFF70;
+    padding-top: 8px;
+    font-family: 'Suez One', serif;
+}
+
+.powerup img {
+    display: inline-block;
+    margin: auto;
+    width: 8%;
+    padding-top: 12px; 
+}    
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Suez One', serif;
+}
+
+.menu li {
+    float: left; 
+    text-align: center;
+    font-size: 24px;
+}
+
+.menu li a {
+    display: inline-block;
+    color: #FFFFFF;
+    padding: 0px 25px;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    color: #FAFF70;
+}
+
+.superhero {
+    display: inline-block;
+    margin: auto;
+}
+
+.superhero img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    height: 60%;
+    border: 3px solid #000000;
+}  
+
+.img_lightning {
+    width: 48%;
+}
+
+.overview {
+    text-align: center;
+    font-size: 20px; 
+    width: 70%;
+    height: auto;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navigation {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    font-size: 23px;
+    color: #000000;
+    width: 70%;
+}
+
+.navigation img {
+    width: 50%;
+    height: auto;
+}
+
+.powers {
+    display: inline-block;
+    background-color: #FAFF70;
+    text-align:center;
+    width: 45%;
+    margin: 5px;
+    font-family: 'Suez One', serif;
+    color: #000000;
+}
+
+.powers p{
+color:#000000;
+}
+
+.powers a{
+text-decoration:none;
+}
+
+.costumes {
+    display: inline-block;
+    background-color: #FAFF70;
+    text-align:center;
+    width: 45%;
+    margin: 5px;
+    font-family: 'Suez One', serif;
+    color: #000000;
+}
+
+.costumes p{
+color:#000000;
+}
+
+.costumes a{
+text-decoration:none;
+}
+
+footer {
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 70%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* * === CSS FOR POWERS PAGE === */
+
+.powerspage {
+    font-size: 50px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #000000;
+    color: #FAFF70;
+    padding: 5px 0px;
+    position: relative;
+    margin: auto;
+    width: 70%;
+    font-family: 'Suez One', serif;
+}
+
+.products_group1 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    position: relative;
+    margin: auto;
+    width: 70%;
+    font-family: 'Suez One', serif;
+}
+
+.product1 {
+    display: inline-block;
+    background-color: #FAFF70;
+    text-align:center;
+    width: 250px;
+    height: 350px;
+    margin: 10px;
+}
+
+.product2 {
+    display: inline-block;
+    background-color: #FAFF70;
+    text-align:center;
+    width: 250px;
+    height: 350px;
+    margin: 10px;
+}
+
+.product3 {
+    display: inline-block;
+    background-color: #FAFF70;
+    text-align:center;
+    width: 250px;
+    height: 350px;
+    margin: 10px;
+}
+
+.product4 {
+    display: inline-block;
+    background-color: #FAFF70;
+    text-align:center;
+    width: 250px;
+    height: 350px;
+    margin: 10px;
+}
+    
+.products_group2 {
+   display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    position: relative;
+    margin: auto;
+    width: 70%;
+    font-family: 'Suez One', serif;
+}
+
+.product5 {
+    display: inline-block;
+    background-color: #FAFF70;
+    text-align:center;
+    width: 250px;
+    height: 350px;
+    margin: 10px;
+}
+
+.product6 {
+    display: inline-block;
+    background-color: #FAFF70;
+    text-align:center;
+    width: 250px;
+    height: 350px;
+    margin: 10px;
+}
+
+.product7 {
+    display: inline-block;
+    background-color: #FAFF70;
+    text-align:center;
+    width: 250px;
+    height: 350px;
+    margin: 10px;
+}
+
+.product8 {
+    display: inline-block;
+    background-color: #FAFF70;
+    text-align:center;
+    width: 250px;
+    height: 350px;
+    margin: 10px;
+}
+
+.products_group3 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    position: relative;
+    margin: auto;
+    width: 70%;
+    font-family: 'Suez One', serif;
+}
+
+.product9 {
+    display: inline-block;
+    background-color: #FAFF70;
+    text-align:center;
+    width: 250px;
+    height: 350px;
+    margin: 10px;
+}
+
+.product10 {
+    display: inline-block;
+    background-color: #FAFF70;
+    text-align:center;
+    width: 250px;
+    height: 350px;
+    margin: 10px;
+}
+
+.product11 {
+    display: inline-block;
+    background-color: #FAFF70;
+    text-align:center;
+    width: 250px;
+    height: 350px;
+    margin: 10px;
+}
+
+.product12 {
+    display: inline-block;
+    background-color: #FAFF70;
+    text-align:center;
+    width: 250px;
+    height: 350px;
+    margin: 10px;
+}
+
+/* === CSS FOR COSTUMES PAGE === */
+
+.costumespage {
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #000000;
+    color: #FAFF70;
+    padding: 5px 0px;
+    position: relative;
+    margin: auto;
+    width: 70%;
+    font-family: 'Suez One', serif;
+}
+
+.men {
+    text-align: center;
+    font-size: 25px;
+    width: 70%;
+    margin: auto;
+    font-family: 'Suez One', serif;
+}
+
+.men img {
+    width: auto;
+    height: 70%;
+}
+
+.note {
+    text-align: center;
+    font-size: 15px;
+    width: 70%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.costumes_group1 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    margin: auto;
+    width: 100%;
+    font-family: 'Suez One', serif;
+}    
+
+.costume1 {
+    display: inline-block;
+    background-color: white;
+    border: 5px solid #000000;
+    text-align:center;
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+}
+
+.costume2 {
+    display: inline-block;
+    background-color: white;
+    border: 5px solid #000000;
+    text-align:center;
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+}
+
+.costume3 {
+    display: inline-block;
+    background-color: white;
+    border: 5px solid #000000;
+    text-align:center;
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+}
+
+.costume4 {
+    display: inline-block;
+    background-color: white;
+    border: 5px solid #000000;
+    text-align:center;
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+}
+
+.costume4 img {
+    width: auto;
+    height: 65%;
+}
+
+.costumes_group2 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    margin: auto;
+    width: 100%;
+    font-family: 'Suez One', serif;
+}    
+
+.costume5 {
+    display: inline-block;
+    background-color: white;
+    border: 5px solid #000000;
+    text-align:center;
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+}
+
+.costume6 {
+   display: inline-block;
+    background-color: white;
+    border: 5px solid #000000;
+    text-align:center;
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+}
+
+.costume7 {
+    display: inline-block;
+    background-color: white;
+    border: 5px solid #000000;
+    text-align:center;
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+}
+
+.costume8 {
+    display: inline-block;
+    background-color: white;
+    border: 5px solid #000000;
+    text-align:center;
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+}
+
+.women {
+    text-align: center;
+    font-size: 25px;
+    width: 70%;
+    margin: auto;
+    font-family: 'Suez One', serif;
+}
+
+.women img {
+    width: auto;
+    height: 70%;
+}
+
+.costumes_group3 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    margin: auto;
+    width: 100%;
+    font-family: 'Suez One', serif;
+}    
+
+.costume9 {
+    display: inline-block;
+    background-color: white;
+    border: 5px solid #000000;
+    text-align:center;
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+}
+
+.costume10 {
+   display: inline-block;
+    background-color: white;
+    border: 5px solid #000000;
+    text-align:center;
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+}
+
+.costume11 {
+    display: inline-block;
+    background-color: white;
+    border: 5px solid #000000;
+    text-align:center;
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+}
+
+.costume12 {
+    display: inline-block;
+    background-color: white;
+    border: 5px solid #000000;
+    text-align:center;
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+}
+
+.costumes_group4 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    margin: auto;
+    width: 100%;
+    font-family: 'Suez One', serif;
+}    
+
+.costume13 {
+    display: inline-block;
+    background-color: white;
+    border: 5px solid #000000;
+    text-align:center;
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+}
+
+.costume14 {
+   display: inline-block;
+    background-color: white;
+    border: 5px solid #000000;
+    text-align:center;
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+}
+
+.costume15 {
+    display: inline-block;
+    background-color: white;
+    border: 5px solid #000000;
+    text-align:center;
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+}
+
+.costume16 {
+    display: inline-block;
+    background-color: white;
+    border: 5px solid #000000;
+    text-align:center;
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+}
+
+.costumes_group5 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    margin: auto;
+    width: 100%;
+    font-family: 'Suez One', serif;
+}    
+
+.costume17 {
+    display: inline-block;
+    background-color: white;
+    border: 5px solid #000000;
+    text-align:center;
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+}
+
+.costume18 {
+    display: inline-block;
+    background-color: white;
+    border: 5px solid #000000;
+    text-align:center;
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+}
+
+.costume19 {
+    display: inline-block;
+    background-color: white;
+    text-align:center;
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+}
+
+.costume20 {
+    display: inline-block;
+    background-color: white;
+    text-align:center;
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+}
+/* === CSS FOR INFORMATION PAGE === */
+
+.informationpage {
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #000000;
+    color: #FAFF70;
+    padding: 5px 0px;
+    position: relative;
+    margin: auto;
+    width: 70%;
+    font-family: 'Suez One', serif;
+}
+
+.information {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.rules {
+    border: 1px solid black;
+    padding: 20px 20px;
+    margin: 20px;
+    text-align: left;
+    width: 850px;
+    height: auto;
+}
+
+.info_header {
+    background-color: #FAFF70;
+}
+
+.howitworks {
+    border: 1px solid black;
+    padding: 10px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.howitworks img {
+    float: left;
+    width: 12%;
+    border: 3px;
+    height: auto;
+    margin: auto;
+    margin-right: 10px;
+}
+
+.keys {
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin: auto;
+    text-align: justify;
+}
+
+/* * === CSS FOR CART PAGE === */
+.cartpage {
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #000000;
+    color: #FAFF70;
+    padding: 5px 0px;
+    position: relative;
+    margin: auto;
+    width: 70%;
+    font-family: 'Suez One', serif;
+}
+
+.cartform {
+    font-size: 15px;
+    vertical-align: middle;
+    width: 70%;
+    margin: auto;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Suez One', serif;
+}
+
+.payment {
+    font-size: 15px;
+    width: 66%;
+    text-align: left;
+    display: block;
+    align-content: flex-start;
+    margin: auto;
+    justify-content: left;
+    font-family: 'Suez One', serif;
+}
+
+fieldset { 
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
